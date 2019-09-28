@@ -22,18 +22,18 @@ body {
     background-image: url("./../images/trees.png");
 }
 
-header {
+.topHeader {
     margin: 0 auto;
     width: 100%;
     background: white;
     height: 80px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 1px solid #cccccc;    
+    border: 1px solid #cccccc;
 }
 
 .headerContent {
     width: 960px;
-    height: 80px;
+    /*height: 80px;*/
     margin: 0 auto;
 }
 
@@ -55,17 +55,30 @@ h1.headerName {
     float: right;
 }
 
-.picture {
-    height: 200px;
-    width: 200px;
-    float:left;
+.mainHeaderContent {
+    width: 960px;
+    /*height: 80px;*/
+    margin: 0 auto;
+    color: #4aaaa5;
 }
 
+header.mainContentHeader {
+    margin-top: 40px;
+
+}
+img.picture {
+    height:200px; 
+    width:200px; 
+    float:left; 
+    margin-right: 10px;
+}
 main {
     margin: 0 auto;
     width: 960px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
 }
 
 footer {
