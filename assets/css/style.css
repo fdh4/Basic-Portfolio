@@ -13,28 +13,29 @@ body {
     margin: 0 auto;
    /* width: 100%;*/
     background: white;
-    height: 80px;
+    height: 90px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 1px solid #cccccc;
 }
 
 .headerContent {
     width: 960px;
-    /*height: 80px;*/
+    height: 90px;
     margin: 0 auto;
 }
 
 h1.headerName {
     margin: 0;
-    padding: 21.5px;
+    padding: 25px;
     color: white;
     background-color: #4aaaa5;
     float: left;
+    height: 88px;
 }
 
 .headerLink {
-    padding-top: 25px;
-    padding-bottom: 39px;
+    padding-top: 33px;
+    padding-bottom: 33px;
     padding-left: 33px;
     padding-right: 0px;
     color: #999999;
@@ -83,13 +84,12 @@ p{
     color: #777777;
 }
 
-
-.stickyFooter {
+footer {
     position: sticky;
     bottom: 0;
     height: 55px;
     border-top: 5px solid #4aaaa5;
-    padding-top: 22 px;
+    padding-top: 20px;
     background-color: #666666;
     color: #cccccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
