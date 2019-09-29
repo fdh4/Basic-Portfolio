@@ -35,9 +35,9 @@ h1.headerName {
 
 .headerLink {
     padding-top: 33px;
-    padding-bottom: 33  px;
+    /*padding-bottom: 33  px;*/
     padding-left: 33px;
-    padding-right: 0px;
+    /*padding-right: 0px;*/ 
     color: #999999;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1.1em;
@@ -88,11 +88,25 @@ footer {
     position: sticky;
     bottom: 0;
     height: 55px;
-    border-top: 5px solid #4aaaa5;
-    padding-top: 20px;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 30px;
     background-color: #666666;
     color: #cccccc;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: .7em;
     text-align: center;
 }
+
+form {
+    padding: 30px;
+    padding-top: 0;
+    color: #999999;
+}
+input {
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    color: #999999;
+ 
+}
+
