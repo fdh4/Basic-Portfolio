@@ -61,11 +61,12 @@ main {
     line-height: 2em;
 }
 header.contentHeader {
-    margin: 30px;
+    margin: 0px 30px;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1.contentHeadline {
+    margin-top: 0;
     padding: 30px 0px;
     border-bottom: 3px solid #dddddd;
 }
@@ -98,18 +99,30 @@ footer {
 }
 
 form {
-    padding: 30px;
+    padding: 0 30px;
     padding-top: 0;
-    color: #999999;
+    color: #666666;
 }
 input {
     height: 30px;
     width: 100%;
     padding-left: 10px;
-    color: #999999;
- 
+    color: #666666;
 }
 
-.content {
+input[name="emailMessage"] {
+    height: 200px;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 125px;
+    height: 45px;
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 1.3em;
+}
+.content {height: 1024px;
     min-height: calc(100vh - 55px);
 }
