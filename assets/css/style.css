@@ -45,7 +45,11 @@ h1.headerName {
 }
 .headerLink a {
     text-decoration: none;
-    color: #999999;
+    color: #999999;    
+}
+
+.headerLink a:hover {
+    color: #4aaaa5;    
 }
 
 main {
@@ -60,11 +64,20 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2em;
 }
+main.contact {
+    margin-top: 20px;
+}
+
+main.portfolio {
+    margin-top: 10px;
+}
+
 header.contentHeader {
     margin: 0px 30px;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 h1.contentHeadline {
     margin-top: 0;
     padding: 30px 0px;
