@@ -123,6 +123,7 @@ footer {
     text-align: center;
 }
 
+/* styling specific for contact page */
 form {
     padding: 0 30px;
     padding-top: 0;
@@ -147,4 +148,47 @@ input[type="submit"] {
     color: white;
     background-color: #4aaaa5;
     font-size: 1.3em;
+}
+
+/* styling specific for portfolio page */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.portfolioList {
+    margin: 0;
+    overflow: auto;
+    clear: left;
+}
+
+.portfolioItem {
+    position: relative;
+    width: 280px;
+    height: 205px;  
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+    margin-left: 30px;
+    float: left;
+}
+
+.portfolioImage {
+    width: 280px;  
+    height: 205px; 
+}
+
+.portfolioImageLabel {
+    position: absolute;
+    bottom: 10px;
+    margin: 0;
+    width: 280px;
+    height: 55px;
+    line-height: 55px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
 }
