@@ -76,14 +76,14 @@ main.portfolio {
 }
 
 header.contentHeader {
-    margin: 0px 30px;
+    margin: 40px 30px;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1.contentHeadline {
-    margin-top: 0;
-    padding: 30px 0px;
+    margin: 0;
+    padding-bottom: 30px;
     border-bottom: 3px solid #dddddd;
 }
 
@@ -101,15 +101,17 @@ h1.contentHeadline {
 
 .portfolioItem {
     position: relative;
-    width: 275px;
+    width: 280px;
     height: 205px;  
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-bottom: 45px;
     margin-left: 30px;
     float: left;
 }
 
 img {
-    width: 275px;  
+    width: 280px;  
     height: 205px; 
 }
 
